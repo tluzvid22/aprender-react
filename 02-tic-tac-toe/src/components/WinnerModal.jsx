@@ -1,9 +1,11 @@
-import { Square } from "./Square";
+import { Square } from "./Square"
+import confetti from "canvas-confetti"
 
 export const WinnerModal = ({ winner, resetGame }) => {
-  if (winner === null) return null;
+  if (winner === null) return null
 
-  const winnerText = winner === false ? "Empate" : "Ganó:";
+  const winnerText = winner === false ? "Empate" : "Ganó:"
+  confetti()
 
   return (
     <section className="winner">
@@ -17,5 +19,5 @@ export const WinnerModal = ({ winner, resetGame }) => {
         </footer>
       </div>
     </section>
-  );
-};
+  )
+}
