@@ -1,0 +1,26 @@
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+.filters > div {
+  display: flex;
+  place-items: center;
+  gap: 1rem;
+}
+
+select {
+  color: #1d1d1d;
+  background-color: #efefef;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+}

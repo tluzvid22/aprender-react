@@ -1,0 +1,79 @@
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 800px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.movies {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  list-style: none;
+  gap: 32px;
+}
+
+.movie {
+  text-align: center;
+}
+
+.movie h3, .movie p {
+  margin: 0;
+}
+
+.movie h3 {
+  height: 70px;
+  display: grid;
+  place-items: center;
+}
+
+.movie img {
+  border-radius: 8px;
+  margin-top: 16px;
+  height: 350px;
+  width: auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.searchBar {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  width: 100%;
+}
+
+.sortBox {
+  width: 100%;
+  display: flex;
+  align-items: start;
+}
